@@ -4,6 +4,8 @@
 test_suwrapper()
 {
 	export PASSWDFILE=./test/fructures/passwd
+	export SUTARGET=test001
+
 	. ./lib/suwrapper.sh
 
 	suwrapper whoami
